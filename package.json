@@ -4,7 +4,9 @@
   "description": "",
   "homepage": "https://PetroBrodetskyi.github.io/portfolio/",
 "scripts": {
-  "build": "parcel build src/*.html --public-url /portfolio/"
+  "start": "parcel src/*.html",
+  "build": "parcel build src/*.html --public-url /parcel-project-template/",
+  "dev": "npm run start"
 },
   "repository": {
     "type": "git",
