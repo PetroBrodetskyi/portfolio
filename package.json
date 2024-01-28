@@ -2,7 +2,10 @@
   "name": "portfolio",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/PetroBrodetskyi/portfolio",
+  "homepage": "https://PetroBrodetskyi.github.io/portfolio/",
+"scripts": {
+  "build": "parcel build src/*.html --public-url /portfolio/"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PetroBrodetskyi/portfolio"
